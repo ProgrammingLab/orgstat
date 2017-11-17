@@ -1,7 +1,0 @@
-{
-    "dependencies": {
-        "github.com/labstack/echo": {
-            "branch": "master"
-        }
-    }
-}

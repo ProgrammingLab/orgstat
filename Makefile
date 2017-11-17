@@ -7,7 +7,7 @@ LDFLAGS := -X 'main.version=$(VERSION)' \
 # 必要なツール類をセットアップする
 ## Setup
 setup:
-	go get github.com/golang/dep
+	go get github.com/golang/dep/...
 	go get github.com/Songmu/make2help/cmd/make2help
 
 # depを使って依存パッケージをインストールする
