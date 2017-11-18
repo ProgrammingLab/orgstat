@@ -1,2 +1,4 @@
 orgstat
 vendor/*
+mnt/mysql/*
+!.gitkeep
